@@ -51,7 +51,7 @@ abstract class GenericDispatcher implements DispatcherInterface {
      */
     public function notifyAll() {
         foreach ( $this->services as $service => $properties ) {
-            call_user_func_array( [$service, $properties['method']], $properties['properties'] );
+            call_user_func_array( [$service, $properties['method']], [ ...$properties['properties']] );
         }
     }
 }
