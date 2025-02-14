@@ -4,7 +4,7 @@
     "license": "gpl",
     "autoload": {
         "psr-4": {
-            "W3alients\\PostTypeAndTaxonomyMigrator\\": "includes/"
+            "W3aliens\\PostTypeAndTaxonomyMigrator\\": "includes/"
         }
     },
     "authors": [
