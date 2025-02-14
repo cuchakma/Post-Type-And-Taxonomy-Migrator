@@ -1,0 +1,18 @@
+{
+    "name": "w3alients/post-type-and-taxonomy-migrator",
+    "description": "This plugin allows to migrate taxonomies and post types.",
+    "license": "gpl",
+    "autoload": {
+        "psr-4": {
+            "W3alients\\PostTypeAndTaxonomyMigrator\\": "includes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cupid chakma",
+            "email": "greendaycu20@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
