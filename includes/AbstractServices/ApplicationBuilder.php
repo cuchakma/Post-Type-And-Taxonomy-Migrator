@@ -16,6 +16,8 @@ abstract class ApplicationBuilder implements AppicationBuilderInterface {
         if ( $filterType == 'filter' ) {
             array_push( $this->services[$filterType], ['hook' => $hook, 'namespace' => $serviceClassNamespace, 'method' => $method, 'properties' => $properties, 'priority' => $priority] );
         }
+        
+        return $this;
     }
 
     public function build() {
